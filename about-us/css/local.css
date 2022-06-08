@@ -1,0 +1,283 @@
+@media screen and (max-width: 576px) {
+  .nav-top {
+    min-height: 80px;
+  }
+  .nav-top h4 {
+    font-size: 0.8rem;
+    text-align: center;
+    background: #003383;
+  }
+  .nav-top .countdown {
+    width: 280px;
+  }
+  .nav-top .countdown span {
+    font-size: 0.7rem;
+  }
+  .nav-top .countdown .text {
+    font-size: 0.5rem;
+  }
+  .header {
+    height: 65px;
+  }
+  .header .register-header-btn {
+    font-size: 0.8rem;
+    width: 95px;
+    height: 35px;
+  }
+  .header .search-box-header i {
+    font-size: 1.2rem;
+  }
+  .options-board figcaption {
+    font-size: 0.8rem;
+  }
+  .text-article p {
+    font-size: 0.9rem;
+  }
+  .management-team .team-card {
+    min-height: 250px;
+  }
+  .management-team .team-card img {
+    width: 135px;
+    height: 160px;
+  }
+  .management-team .team-card figcaption {
+    width: 135px;
+  }
+  .management-team .team-card figcaption .caption-team {
+    height: 100%;
+  }
+  .management-team .team-card figcaption .caption-team h3 {
+    font-size: 1rem;
+  }
+  .management-team .team-card figcaption .caption-team h4 {
+    font-size: 0.7rem;
+  }
+  .footer .text-about {
+    font-size: 0.9rem;
+  }
+  .footer .peyvandha .peyvandha-links {
+    display: none;
+  }
+  .footer .questions-1 .questions-1-links {
+    display: none;
+  }
+  .footer .questions-2 .questions-2-links {
+    display: none;
+  }
+  .footer .copy-right {
+    font-size: 0.8rem;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .nav-top {
+    min-height: 70px;
+  }
+  .nav-top h4 {
+    font-size: 0.8rem;
+    text-align: center;
+    background: #003383;
+  }
+  .nav-top .countdown {
+    width: 280px;
+  }
+  .nav-top .countdown span {
+    font-size: 0.7rem;
+  }
+  .nav-top .countdown .text {
+    font-size: 0.5rem;
+  }
+  .header {
+    height: 65px;
+  }
+  .header .register-header-btn {
+    font-size: 1rem;
+    width: 120px;
+    height: 45px;
+  }
+  .header .search-box-header i {
+    font-size: 1.2rem;
+  }
+  .options-board figcaption {
+    font-size: 0.8rem;
+  }
+  .text-article p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+  .management-team .team-card {
+    min-height: 300px;
+  }
+  .management-team .team-card img {
+    width: 180px;
+    height: 210px;
+  }
+  .management-team .team-card figcaption {
+    width: 180px;
+  }
+  .management-team .team-card figcaption .caption-team {
+    height: 100%;
+  }
+  .management-team .team-card figcaption .caption-team h3 {
+    font-size: 1.1rem;
+  }
+  .management-team .team-card figcaption .caption-team h4 {
+    font-size: 0.9rem;
+  }
+  .footer .text-about {
+    font-size: 0.8rem;
+  }
+  .footer .peyvandha .peyvandha-links {
+    display: none;
+  }
+  .footer .questions-1 .questions-1-links {
+    display: none;
+  }
+  .footer .questions-2 .questions-2-links {
+    display: none;
+  }
+  .footer .copy-right {
+    font-size: 0.8rem;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-top h4 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .nav-top .countdown span {
+    font-size: 1.1rem;
+  }
+  .nav-top .countdown .text {
+    font-size: 0.8rem;
+  }
+  .header {
+    height: 120px;
+  }
+  .header .register-header-btn {
+    font-size: 1rem;
+    width: 130px;
+    height: 50px;
+  }
+  .header .search-box-header i {
+    font-size: 1.5rem;
+  }
+  .options-board figcaption {
+    font-size: 0.9rem;
+  }
+  .management-team .team-card {
+    min-height: 300px;
+  }
+  .management-team .team-card img {
+    width: 180px;
+    height: 210px;
+  }
+  .management-team .team-card figcaption {
+    width: 180px;
+  }
+  .management-team .team-card figcaption .caption-team {
+    height: 100%;
+  }
+  .management-team .team-card figcaption .caption-team h3 {
+    font-size: 1.2rem;
+  }
+  .management-team .team-card figcaption .caption-team h4 {
+    font-size: 1rem;
+  }
+  .footer .text-about {
+    font-size: 1.2rem;
+  }
+  .footer .peyvandha .peyvandha-links {
+    display: none;
+  }
+  .footer .questions-1 .questions-1-links {
+    display: none;
+  }
+  .footer .questions-2 .questions-2-links {
+    display: none;
+  }
+  .footer .copy-right {
+    font-size: 1.1rem;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-top {
+    min-height: 70px;
+  }
+  .nav-top h4 {
+    font-size: 1.1rem;
+    text-align: right;
+    background-color: #ffffff00;
+  }
+  .nav-top .countdown span {
+    font-size: 1.1rem;
+  }
+  .nav-top .countdown .text {
+    font-size: 0.7rem;
+  }
+  .header .menu-desktop a {
+    font-size: 0.8rem;
+  }
+  .header .register-header-btn {
+    font-size: 1rem;
+    width: 160px;
+    height: 60px;
+  }
+  .options-board figcaption {
+    font-size: 0.8rem;
+  }
+  .management-team .team-card {
+    min-height: 300px;
+  }
+  .management-team .team-card img {
+    width: 180px;
+    height: 210px;
+  }
+  .management-team .team-card figcaption {
+    width: 180px;
+  }
+  .management-team .team-card figcaption .caption-team {
+    height: 100%;
+  }
+  .management-team .team-card figcaption .caption-team h3 {
+    font-weight: bolder;
+  }
+  .text-article p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+  .footer .peyvandha .peyvandha-links {
+    display: block;
+  }
+  .footer .questions-1 .questions-1-links {
+    display: block;
+  }
+  .footer .questions-2 .questions-2-links {
+    display: block;
+  }
+  .agency-article p {
+    letter-spacing: -1px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header .menu-desktop a {
+    font-size: 1rem;
+  }
+  .text-article p {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .options-board figcaption {
+    font-size: 0.9rem;
+  }
+}
+/*# sourceMappingURL=local.css.map */

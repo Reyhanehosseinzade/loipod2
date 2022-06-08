@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/local.css">
+    <link rel="stylesheet" href="../assets/fonts/fonts/css/fontiran.css">
+    <link rel="stylesheet" href="../assets/fonts/fonts/css/style.css">
+    <link rel="stylesheet" href="js/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <title> خدمات لوآهاب </title>
+</head>
+
+<body>
+
+    <main class="main container-fluid p-0 m-0">
+        <div class="beforemain m-0 p-0"></div>
+        <section class="nav-top p-0 m-0">
+            <div class="container-fluid row justify-content-between mx-auto m-0 align-items-center p-0 px-lg-3">
+                <h4 class="py-3 py-lg-0 p-0 m-0 col-12 col-lg-7"> <a href="#">ثبت نام کنید و 20،000،000 ريال
+                        اعتبار
+                        دریافت
+                        کنید.</a></h4>
+                <div class="countdown mx-auto mx-lg-0 m-0 p-0 py-2">
+                    <span class="number-count" id="day">00</span>
+                    <span class="number-count" id="hour">00</span>
+                    <span class="number-count" id="minute">00</span>
+                    <span class="number-count" id="second">00</span>
+                    <div class="p-0 m-0 mt-1">
+                        <span class="m-0 p-0 text">روز</span>
+                        <span class="m-0 p-0 text">ساعت</span>
+                        <span class="m-0 p-0 text">دقیقه</span>
+                        <span class="m-0 p-0 text">ثانیه</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="head-top p-0 m-0">
+            <header class="header p-0 py-2 py-lg-0 m-0">
+                <div class="row justify-content-around p-0 mx-auto my-0 row px-2 px-md-0">
+                    <nav class="menu-mobile d-block d-lg-none py-0 m-0">
+                        <div onclick="closeMenuBar()"
+                            class="close-btn row justify-content-between align-items-center m-0 mb-3">
+                            <img src="../assets/image/LOIHUB LOGO variations (1)-15.png" alt="loihub">
+                            <i class="col-2 bi bi-x-square close-menu-icon"></i>
+                        </div>
+                        <ul class="p-0 m-0">
+                            <li><a href="../index.html">اوج شایستگی</a></li>
+                            <li><a href="#">خدمات و برندها</a></li>
+                            <li><a href="#">لوآکست</a></li>
+                            <li><a href="#">اخبار و مقالات</a></li>
+                            <li><a href="#">سوالات متداول</a></li>
+                            <li><a href="../about-us/index.html">درباره ما</a></li>
+                            <li><a href="../contact-us/index.html"> تماس با ما</a></li>
+                        </ul>
+                    </nav>
+                    <div class="ham-icon-menu col-1 d-flex d-lg-none">
+                        <i class="bi bi-list"></i>
+                    </div>
+                    <div class="logo-header col-4 col-md-5 col-lg-2 px-xl-4">
+                        <a href="../index.html">
+                            <img src="../assets/image/LOIHUB LOGO.svg" alt="LOIHUB">
+                        </a>
+                    </div>
+                    <nav class="menu-desktop d-none col-7 d-lg-block">
+                        <ul class="p-0 m-0">
+                            <li><a href="../index.html">اوج شایستگی</a></li>
+                            <li><a href="#">خدمات و برندها</a></li>
+                            <li><a href="#">لوآکست</a></li>
+                            <li><a href="#">اخبار و مقالات</a></li>
+                            <li><a href="#">سوالات متداول</a></li>
+                            <li><a href="../about-us/index.html">درباره ما</a></li>
+                            <li><a href="../contact-us/index.html"> تماس با ما</a></li>
+                        </ul>
+                    </nav>
+                    <div
+                        class="register-header justify-content-around justify-content-lg-evenly col-6 col-md-4 col-lg-3">
+                        <div class="register-header-btn p-0 m-0">
+                            <a href="#">
+                                <span>ثبت نام / ورود</span>
+                            </a>
+                        </div>
+                        <div class="search-box-header d-flex justify-content-center align-items-center">
+                            <i class="bi bi-search open-search"></i>
+                            <div class="search-input">
+                                <input type="search" placeholder="جستجو">
+                                <i class="bi bi-x close-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="banner container-fluid p-0 m-0">
+                <div class="justify-content-center align-items-start row p-0 m-0 ">
+                    <img class="p-0 m-0" src="../assets/image/service-banner.png"
+                        alt="قطب ارائه خدمات نوآورانه به جامعه حقوقی">
+                </div>
+            </div>
+        </section>
+        <section class="service-slider p-0 py-3 m-0 bg-white">
+            <div class="owl-carousel owl-theme d-flex p-0 m-0 pe-sm-5 justify-content-center align-content-start">
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div> <img src="../assets/image/loatalent-logo.png" alt="لوآتلنت"></div>
+                    </div>
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0"> ارزیابی، توانمندسازی و رتبه‌بندی جامعه حقوقی بر اساس
+                            مدل شایستگی لوآ </span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div><img src="../assets/image/loa-academy.png" alt="آکادمی لوآ"></div>
+                    </div>
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0">آموزش مهارت‌های نرم، سخت و عمومی به جامعه حقوقی
+                        </span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div><img src="../assets/image/loainnovation-logo.png" alt="لوآاینویشن"></div>
+                    </div>
+
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0"> مرکز خلاقیت و نوآوری حقوقی</span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div> <img src="../assets/image/loajob-logo.png" alt="لوآجاب"></div>
+                    </div>
+
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0">ایجاد بستر شغلی و کاریابی برای جامعه حقوقی
+                        </span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class=" img">
+                        <div> <img src="../assets/image/loatalk-logo.png" alt="لوآتاک"></div>
+                    </div>
+
+                    <div class="des col-10 row p-0 m-0 position-relative">
+                        <span class="item-title col-11 p-0 m-0"> به اشتراک گذاشتن ایده‌ها و تجربه‌های ارزشمند حقوقی
+                        </span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div> <img src="../assets/image/loamarketing-logo.png" alt="لوآمارکتینگ"></div>
+                    </div>
+
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0"> ارائه خدمات بازاریابی به جامعه حقوقی
+                        </span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div> <img src="../assets/image/loa-office.png" alt="لوآآفیس"></div>
+                    </div>
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0">پلتفرم اجاره‌ی فضای کار (دفتر) موقت برای جامعه حقوقی
+                        </span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div> <img src="../assets/image/loa-tailor.png" alt="لوآتیلور"></div>
+                    </div>
+
+                    <div class="des col-10 row p-0 m-0 position-relative">
+                        <span class="item-title col-11 p-0 m-0">برند شخصی‌دوزی پوشاک برای جامعه حقوقی</span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div><img src="../assets/image/loastudio-logo.png" alt="لوآاستودیو"></div>
+                    </div>
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0"> ارائه خدمات و تجهیزات لازم برای تولید محتوای تصویری و
+                            صوتی
+                        </span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div> <img src="../assets/image/loatrip-logo.png" alt="لوآتریپ"></div>
+                    </div>
+
+                    <div class="des col-10 row p-0 m-0 position-relative">
+                        <span class="item-title col-11 p-0 m-0">ارائه‌دهنده خدمات مسافرتی به جامعه حقوقی</span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div><img src="../assets/image/loa-design.png" alt="لوآدیزاین"></div>
+                    </div>
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0">ارائه خدمات طراحی داخلی به جامعه حقوقی
+                        </span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div><img src="../assets/image/loashop-logo.png" alt="لوآشاپ"></div>
+                    </div>
+
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0">فروشگاه نیازمندی های جامعه حقوقی</span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div> <img src="../assets/image/loarabin-logo.png" alt="لوآرابین"></div>
+                    </div>
+
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0"> ارائه خدمات روانشناسی ویژه جامعه حقوقی
+                        </span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div><img src="../assets/image/loacredit-logo.png" alt="لوآکردیت"></div>
+                    </div>
+
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0"> اعطای وام (بدون بهره) به اعضای شایسته لوآهاب</span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class="img">
+                        <div><img src="../assets/image/loacharity-logo.png" alt="لوآچریتی"></div>
+                    </div>
+                    <div class="des col-10 position-relative row p-0 m-0">
+                        <span class="item-title col-11 p-0 m-0">بستری برای جامعه حقوقی جهت رفع نیاز حقوقی نیازمندان
+                        </span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+
+                <div class="item row justify-content-center align-content-between p-2 m-0">
+                    <div class=" img">
+                        <div> <img src="../assets/image/loameta-logo.png" alt="لوآمتا"></div>
+                    </div>
+
+                    <div class="des col-10 row p-0 m-0 position-relative">
+                        <span class="item-title col-11 p-0 m-0">تامین دفتر وکالت و فضای کار مجازی</span>
+                        <i class="bi bi-chevron-left col-1 row justify-content-center align-items-center p-0 m-0"></i>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+        <section class="khadamat row justify-content-center p-0 mx-0 ">
+            <section id="loatalent" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loitalent.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row p-0">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img src="../assets/image/loatalent-logo.png" alt="لوآتلنت">
+                            <figcaption class="col-12 mt-2 text-center"> ارزیابی، توانمندسازی و رتبه‌بندی جامعه حقوقی بر
+                                اساس مدل شایستگی لوآ
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>
+                                لوآتلنت اولین و تنها مرکز ارزیابی و توانمندسازی ویژه وکلا و حقوقدانان در دنیاست که
+                                براساس آخرین متدهای آموزشی توانمندسازی، مسیر توسعه‌ای مختص هر وکیل و حقوقدانی ارائه
+                                می‌کند. لوآتلنت همان جاییست که می‌توانید روی نقاط قوتتان سرمایه‌گذاری کرده و نقاط ضعفتان
+                                را برطرف کنید. <br>
+                                در لوآتلنت هر وکیل و حقوقدانی می‌تواند با توجه به مسیر رشد و توسعه‌ای که فقط برای او
+                                طراحی شده، بدون هدر دادن منابع مالی و زمانی، با روش‌های نوین آموزشی به همراه سرگرمی و
+                                بازی به توسعه دانش و مهارت‌های خود بپردازد. <br>
+                                با پشت سر گذاشتن دوره و کسب نمره قبولی، هر وکیل و حقوقدانی علاوه بر دریافت نشان شایستگی
+                                لوآ از بزرگان جامعه حقوقی، گواهینامه‌ای معتبر مبنی بر گذراندن دوره ارزیابی و توسعه در
+                                لوآ نیز دریافت خواهد کرد. تجربه‌ای که وکلا و حقوقدانان در لوآتلنت به دست می‌آورند، در
+                                هیچ پلتفرم آموزشی دیگری کسب نخواهند کرد. <br>
+                                <strong class="mt-3 d-flex"> ارزش های لوآتلنت برای جامعه حقوقی :</strong>
+                            <p class="before-text-service"> ارزیابی و توسعه وکلا و حقوقدانان بر اساس مدل شایستگی لوآ</p>
+                            <p class="before-text-service">طراحی مسیر توسعه ویژه هر وکیل و حقوقدانی</p>
+                            <p class="before-text-service"> ارائه خدمت ارزیابی به صورت حضوری و آنلاین</p>
+                            <p class="before-text-service"> امکان استفاده از خدمات رفاهی و تفریحی در طول دوره ارزیابی
+                            </p>
+                            <p class="before-text-service">دریافت نشان شایستگی لوآ</p>
+                            <p class="before-text-service">دریافت گواهینامه معتبر پایان دوره لوآ</p>
+
+
+                            </p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+                </div>
+            </section>
+            <section id="loaacademy" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loiacademy.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loa-academy.png" alt="لوآآکادمی">
+                            <figcaption class="col-12 mt-2 text-center">آموزش مهارت‌های نرم، سخت و عمومی به جامعه حقوقی
+                                به صورت مجازی و غیرمجازی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>
+                                آکادمی لوآ بزرگترین و اولین پروژه آموزش آنلاین و حضوری کشور مختص جامعه حقوقی اعم از
+                                دانشجویان حقوق، کارآموزان وکالت، وکلا و حقوقدانان با سوابق شغلی است که به ارائه
+                                باکیفیت‌ترین دوره‌های آموزشی تخصصی و عمومی موردنیاز این جامعه می‌پردازد. <br>
+                                آکادمی لوآ اولین پلتفرم آموزشی با جدیدترین متدهای آموزشی جهان در کشور است که با هدف
+                                ارائه آموزش‌هایی در زمینه مهارت‌های نرم، سخت و عمومی جامعه حقوقی، بر اساس سوادهای یونسکو
+                                تاسیس شده است و با برگزاری دوره‌های منحصر به فرد و تکرار نشدنی در زمینه دانش و مهارت‌های
+                                موردنیاز وکلا و حقوقدانان، جامعه حقوقی را از هر آموزش دیگری بی‌نیاز می‌کند.
+                                <strong class="mt-3 d-flex"> ارزش های لوآکادمی برای جامعه حقوقی :</strong>
+                            <p class="before-text-service"> امکان برگزاری دوره‌ها به دو صورت حضوری و آنلاین</p>
+                            <p class="before-text-service">دسترسی به دوره‌ها در هر زمان و هر مکان</p>
+                            <p class="before-text-service">آموزش توسط اساتید مجرب و مطرح کشور</p>
+                            <p class="before-text-service"> طراحی دوره‌های آموزشی مختص جامعه حقوقی</p>
+                            <p class="before-text-service">استفاده از جدیدترین متدهای آموزشی دنیا</p>
+                            <p class="before-text-service">استفاده از سوادهای یونسکو در ساختار آموزشی </p>
+
+                            </p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+                </div>
+            </section>
+            <section id="loainnovation" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loiinnovation.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loainnovation-logo.png" alt="لوآاینویشن">
+                            <figcaption class="col-12 mt-2 text-center">مرکز خلاقیت و نوآوری حقوقی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>حقوقدانان و وکلایی که زمان کافی برای حرکت در مسیر پیشرفت ندارند. حقوقدانان و
+                                وکلایی
+                                که به دنبال حفظ موقعیت فعلی خود هستند. حقوقدانان و وکلایی که سرمایه‌گذاری روی
+                                خود را
+                                به دید هزینه اضافی می‌بینند. حقوقدانان و وکلایی که به درآمد سنتی فعلیشان اکتفا
+                                می‌کنند. حقوقدانان و وکلایی که با توجه به ترندهای دنیا، به ترسیم آینده خود
+                                نمی‌پردازند.</p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loajob" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loijob.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loajob-logo.png" alt="لوآجاب">
+                            <figcaption class="col-12 mt-2 text-center">ایجاد بستر شغلی و کاریابی برای جامعه حقوقی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5 pt-3">
+                            <p>حقوقدانان و وکلایی که زمان کافی برای حرکت در مسیر پیشرفت ندارند. حقوقدانان و
+                                وکلایی
+                                که به دنبال حفظ موقعیت فعلی خود هستند. حقوقدانان و وکلایی که سرمایه‌گذاری روی
+                                خود را
+                                به دید هزینه اضافی می‌بینند. حقوقدانان و وکلایی که به درآمد سنتی فعلیشان اکتفا
+                                می‌کنند. حقوقدانان و وکلایی که با توجه به ترندهای دنیا، به ترسیم آینده خود
+                                نمی‌پردازند.</p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loatalk" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loitalk.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loatalk-logo.png" alt="لوآتاک">
+                            <figcaption class="col-12 mt-2 text-center"> به اشتراک گذاشتن ایده‌ها و تجربه‌های ارزشمند
+                                حقوقی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>لوآتاک بزرگترین و تنها رویداد مختص جامعه حقوقی است که تجربه‌های موفقیت و شکست بزرگان
+                                جامعه حقوقی را بازتاب می‌دهد. مخاطبین این رویداد وکلا، حقوقدانان و دانشجویان حقوق هستند
+                                و مباحث لوآتاک برگرفته از تجربیات ناب وکلا و حقوقدانان و داستان شکست و موفقیت این افراد
+                                در طول مسیرشغلی و زندگی است. در لوآتاک به دنبال تجربه‌ها و پاسخگویی به سوالاتی هستیم که
+                                در هیچ کتاب، سایت و رویدادی در مورد آنها صحبت نشده است. <br>
+                                <strong class="d-flex mt-3"> ارزش‌های لوآتاک برای جامعه حقوقی:</strong>
+                            <p class="before-text-service"> ارائه‌کنندگان رویداد لوآتاک از بزرگان و سرشناسان جامعه حقوقی
+                                هستند که تجربه‌های
+                                منحصربه‌فردی دارند.</p>
+                            <p class="before-text-service"> لوآتاک بزرگترین رویداد گردهمایی وکلا و حقوقدانان کشور است.
+                            </p>
+                            <p class="before-text-service"> فراهم کردن فرصتی برای وکلا و حقوقدانان جوان برای آشنایی و
+                                شبکه‌سازی با وکلا و
+                                حقوقدانان سرشناس</p>
+                            </p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loamarketing" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loimarketing.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loamarketing-logo.png" alt="لوآمارکتینگ">
+                            <figcaption class="col-12 mt-2 text-center">ارائه خدمات بازاریابی به جامعه حقوقی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>حقوقدانان و وکلایی که زمان کافی برای حرکت در مسیر پیشرفت ندارند. حقوقدانان و
+                                وکلایی
+                                که به دنبال حفظ موقعیت فعلی خود هستند. حقوقدانان و وکلایی که سرمایه‌گذاری روی
+                                خود را
+                                به دید هزینه اضافی می‌بینند. حقوقدانان و وکلایی که به درآمد سنتی فعلیشان اکتفا
+                                می‌کنند. حقوقدانان و وکلایی که با توجه به ترندهای دنیا، به ترسیم آینده خود
+                                نمی‌پردازند.</p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loaoffice" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loioffice.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loa-office.png" alt="لوآآفیس">
+                            <figcaption class="col-12 mt-2 text-center">پلتفرم اجاره‌ی فضای کار (دفتر) موقت برای جامعه
+                                حقوقی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>
+                                لوآ آفیس اولین و تنها پلتفرم اجاره دفتر وکالت و دفتر مشاوره حقوقی در ایران است که با هدف
+                                اجاره سالانه، ماهانه، روزانه و حتی ساعتی دفتر، ویژه جامعه حقوقی تاسیس شده است. <br>
+                            <p class="before-text-service">لوآ آفیس
+                                به وکلا و حقوقدانان شایسته لوآ این امکان را می‌دهد که بدون صرف هزینه‌های اضافی، در هر
+                                نقطه‌ای از کشور دفاتری مناسب با کلیه امکانات انتخاب و اجاره کنند.</p>
+                            <p class="before-text-service"> در پلتفرم اجاره دفتر لوآ، وکلا و حقوقدانان شایسته می‌توانند
+                                به راحتی با توجه به موقعیت و
+                                امکانات دفتر و امتیازی که سایر اجاره‌کنندگان به دفتر موردنظر داده‌اند، یک دفتر را انتخاب
+                                کرده و جلسات خود را در هر نقطه‌ای از ایران برگزار کنند، بدون اینکه نیاز باشد هزینه‌های
+                                سنگینی را بابت اجاره دفاتر به صورت ماهانه یا سالانه پرداخت کنند. </p>
+
+                            <p class="before-text-service">در این پلتفرم، اعضای
+                                جامعه حقوقی می‌توانند دفاتر یا اتاق‌هایی از یک دفتر وکالت یا دفتر حقوقی را برای ساعت‌های
+                                جلسه اجاره کرده و دغدغه مسائلی همچون هزینه‌های رفت و آمد، ماندن در ترافیک و... را نداشته
+                                باشند. </p>
+                            <p class="before-text-service">
+                                از طرف دیگر، لوآ آفیس برای صاحبان دفتر نیز این فرصت را فراهم کرده که فضای خالی و
+                                بلااستفاده دفتر خود را به صورت روزانه، ماهانه و حتی سالانه به وکلا و حقوقدانان جهت
+                                برگزاری جلسه با موکل و... اجاره داده و از این طریق کسب درآمد کنند.
+                            </p>
+                            در واقع، لوآ آفیس
+                            فضایی را فراهم کرده تا تمام اعضای جامعه حقوقی بتوانند با یکدیگر همکاری کنند.
+
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loatailor" class="service-detail-item row bg-white mt-5 p-0 ">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loitailor.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loa-tailor.png" alt="لوآتیلور">
+                            <figcaption class="col-12 mt-2 text-center">برند شخصی‌دوزی پوشاک برای جامعه حقوقی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5 ">
+                            <p>لوآ تیلور خاص‌ترین و تنها خانه مد و پوشاک مختص وکلا و حقوقدانان شایسته است که با نام
+                                تجاری لوآتیلور فعالیت می‌کند. در این برند، وکلا و حقوقدانان شایسته لوآ سبک شخصی خودشان
+                                را در پوشش خواهند داشت. <br> پوشاک‌هایی که با توجه به استایل شخصی، قد و فرم اندام،
+                                رنگ‌های
+                                مورد علاقه، جایگاه شغلی و... جامعه حقوقی در اوج کیفیت و ظرافت دوخته می‌شوند.
+                                در لوآتیلور هر وکیل و حقوقدانی می‌تواند یک سبک منحصر به فرد و خاص را در پوشش خود تجربه
+                                کند. پوششی که فقط برای شخص او طراحی و دوخته شده است. <br> در برند پوشاک لوآ، نیازی نیست
+                                وکلا
+                                و حقوقدانان زمان خود را صرف گشت‌وگذار در پاساژها کنند، کافی است از لوآ تیلور خرید کنند
+                                تا بهترین طراحان و خیاطان جامعه حقوقی، پوشاکی مناسب با منزلت و جایگاه شغلی و اجتماعی او
+                                برایش تدارک ببینند.
+                            </p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loastudio" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loistudio.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loastudio-logo.png" alt="لوآاستودیو">
+                            <figcaption class="col-12 mt-2 text-center">ارائه خدمات و تجهیزات لازم برای تولید محتوای
+                                تصویری و صوتی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>حقوقدانان و وکلایی که زمان کافی برای حرکت در مسیر پیشرفت ندارند. حقوقدانان و
+                                وکلایی
+                                که به دنبال حفظ موقعیت فعلی خود هستند. حقوقدانان و وکلایی که سرمایه‌گذاری روی
+                                خود را
+                                به دید هزینه اضافی می‌بینند. حقوقدانان و وکلایی که به درآمد سنتی فعلیشان اکتفا
+                                می‌کنند. حقوقدانان و وکلایی که با توجه به ترندهای دنیا، به ترسیم آینده خود
+                                نمی‌پردازند.</p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loatrip" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loitrip.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loatrip-logo.png" alt="لوآتریپ">
+                            <figcaption class="col-12 mt-2 text-center">ارائه‌دهنده خدمات مسافرتی به جامعه حقوقی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>حقوقدانان و وکلایی که زمان کافی برای حرکت در مسیر پیشرفت ندارند. حقوقدانان و
+                                وکلایی
+                                که به دنبال حفظ موقعیت فعلی خود هستند. حقوقدانان و وکلایی که سرمایه‌گذاری روی
+                                خود را
+                                به دید هزینه اضافی می‌بینند. حقوقدانان و وکلایی که به درآمد سنتی فعلیشان اکتفا
+                                می‌کنند. حقوقدانان و وکلایی که با توجه به ترندهای دنیا، به ترسیم آینده خود
+                                نمی‌پردازند.</p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loadesign" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loidesign.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loa-design.png" alt="لوآدیزاین">
+                            <figcaption class="col-12 mt-2 text-center">ارائه خدمات طراحی داخلی به جامعه حقوقی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>حقوقدانان و وکلایی که زمان کافی برای حرکت در مسیر پیشرفت ندارند. حقوقدانان و
+                                وکلایی
+                                که به دنبال حفظ موقعیت فعلی خود هستند. حقوقدانان و وکلایی که سرمایه‌گذاری روی
+                                خود را
+                                به دید هزینه اضافی می‌بینند. حقوقدانان و وکلایی که به درآمد سنتی فعلیشان اکتفا
+                                می‌کنند. حقوقدانان و وکلایی که با توجه به ترندهای دنیا، به ترسیم آینده خود
+                                نمی‌پردازند.</p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loashop" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loishop.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loashop-logo.png" alt="لوآشاپ">
+                            <figcaption class="col-12 mt-2 text-center">فروشگاه نیازمندی های جامعه حقوقی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>هر آن چیزی که یک وکیل و حقوقدان شایسته نیاز دارد را می‌توان بدون صرف وقت در بازار یا
+                                فروشگاه‌های آنلاین، به صورت مستقیم و با مناسب‌ترین قیمت از لوآ شاپ تهیه کرد. فروشگاه
+                                مجموعه لوآ، اولین و تنها مارکت پلیس محصولات تخصصی جامعه حقوقی در کشور است که فقط برای
+                                وکلا و حقوقدانان شایسته لوآ راه‌اندازی شده است. <br>
+                                در لوآشاپ تلاش می‌کنیم اکسسوری‌ها و اجناس قابل فروش، شخصی‌سازی شوند. به این معنا که هر
+                                وکیل و حقوقدانی می‌تواند عطر مخصوص خود را خریداری کند؛ عطری که با توجه به علایق،
+                                ویژگی‌های شخصیتی و شغل او تهیه شده است. یا حتی دکمه سرآستین، کیف، ماگ و سایر اجناسی که
+                                فقط برای او تهیه شده‌اند. <br>
+                                <strong class="d-flex mt-3"> ارزش‌های لوآشاپ برای جامعه حقوقی</strong>
+                            <p class="before-text-service">فروش اکسسوری‌ها و اجناس ویژه وکلا و حقوقدانان شایسته</p>
+                            <p class="before-text-service">فروش اجناس شخصی‌سازی شده با توجه به ویژگی‌های شخصیتی، علایق،
+                                شغل و سبک زندگی هر وکیل و
+                                حقوقدان</p>
+
+                            </p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loarabin" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loirabin.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loarabin-logo.png" alt="لوآرابین">
+                            <figcaption class="col-12 mt-2 text-center">ارائه خدمات روانشناسی ویژه جامعه حقوقی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>حقوقدانان و وکلایی که زمان کافی برای حرکت در مسیر پیشرفت ندارند. حقوقدانان و
+                                وکلایی
+                                که به دنبال حفظ موقعیت فعلی خود هستند. حقوقدانان و وکلایی که سرمایه‌گذاری روی
+                                خود را
+                                به دید هزینه اضافی می‌بینند. حقوقدانان و وکلایی که به درآمد سنتی فعلیشان اکتفا
+                                می‌کنند. حقوقدانان و وکلایی که با توجه به ترندهای دنیا، به ترسیم آینده خود
+                                نمی‌پردازند.</p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loacredit" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loicredit.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loacredit-logo.png" alt="لوآکردیت">
+                            <figcaption class="col-12 mt-2 text-center">اعطای وام (بدون بهره) به اعضای شایسته لوآهاب
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>حقوقدانان و وکلایی که زمان کافی برای حرکت در مسیر پیشرفت ندارند. حقوقدانان و
+                                وکلایی
+                                که به دنبال حفظ موقعیت فعلی خود هستند. حقوقدانان و وکلایی که سرمایه‌گذاری روی
+                                خود را
+                                به دید هزینه اضافی می‌بینند. حقوقدانان و وکلایی که به درآمد سنتی فعلیشان اکتفا
+                                می‌کنند. حقوقدانان و وکلایی که با توجه به ترندهای دنیا، به ترسیم آینده خود
+                                نمی‌پردازند.</p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loacharity" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loicharity.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loacharity-logo.png" alt="لوآچریتی">
+                            <figcaption class="col-12 mt-2 text-center">بستری برای جامعه حقوقی جهت رفع نیاز حقوقی
+                                نیازمندان
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>حقوقدانان و وکلایی که زمان کافی برای حرکت در مسیر پیشرفت ندارند. حقوقدانان و
+                                وکلایی
+                                که به دنبال حفظ موقعیت فعلی خود هستند. حقوقدانان و وکلایی که سرمایه‌گذاری روی
+                                خود را
+                                به دید هزینه اضافی می‌بینند. حقوقدانان و وکلایی که به درآمد سنتی فعلیشان اکتفا
+                                می‌کنند. حقوقدانان و وکلایی که با توجه به ترندهای دنیا، به ترسیم آینده خود
+                                نمی‌پردازند.</p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+            <section id="loameta" class="service-detail-item row bg-white mt-5 p-0">
+                <div class="Description1 p-3 p-md-5 pb-0">
+                    <div class="service-address row justify-content-center justify-content-md-end">
+                        <div class="date p-0 m-0 text-center text-md-start">
+                            <span>از خرداد 1401</span>
+                        </div>
+                        <a href="#" class="address p-0 m-0">loimeta.loihub.ir</a>
+                    </div>
+                    <div class="service-item row align-items-center justify-content-center mt-3 row">
+                        <figure class="row justify-content-center col-12 col-md-4 p-0 m-0">
+                            <img class="col-10" src="../assets/image/loameta-logo.png" alt="لوآمتا">
+                            <figcaption class="col-12 mt-2 text-center">تامین دفتر وکالت و فضای کار مجازی
+                            </figcaption>
+                        </figure>
+                        <div class="text-service col-12 col-md-8 py-5">
+                            <p>حقوقدانان و وکلایی که زمان کافی برای حرکت در مسیر پیشرفت ندارند. حقوقدانان و
+                                وکلایی
+                                که به دنبال حفظ موقعیت فعلی خود هستند. حقوقدانان و وکلایی که سرمایه‌گذاری روی
+                                خود را
+                                به دید هزینه اضافی می‌بینند. حقوقدانان و وکلایی که به درآمد سنتی فعلیشان اکتفا
+                                می‌کنند. حقوقدانان و وکلایی که با توجه به ترندهای دنیا، به ترسیم آینده خود
+                                نمی‌پردازند.</p>
+                        </div>
+                        <div class="link-to-service d-flex p-0 m-0 justify-content-center">
+                            <a href="#"> مشاهده وب‌‌سایت <i class="bi bi-chevron-left mx-3 p-0"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="amar">
+
+                </div>
+            </section>
+
+
+        </section>
+        <footer class="footer container-fluid m-0 p-0 py-5 pb-0 mt-3">
+            <section class="about-us container row align-content-start justify-content-evenly mx-auto p-2 m-0 mb-md-5">
+                <div class="col-3 col-lg-2 logo-footer py-3">
+                    <img src="../assets/image/LOIHUB LOGO variations (1)-15.png" alt="">
+                </div>
+                <div class="col-8 p-3">
+                    <p class="text-about">حقوقدانان و وکلایی که زمان کافی برای حرکت در مسیر پیشرفت ندارند.
+                        حقوقدانان
+                        و
+                        وکلایی که به دنبال حفظ موقعیت فعلی خود هستند. حقوقدانان و وکلایی که سرمایه‌گذاری روی خود
+                        را
+                        به
+                        دید هزینه اضافی می‌بینند. حقوقدانان و وکلایی که به درآمد سنتی فعلیشان اکتفا می‌کنند.
+                        حقوقدانان و
+                        وکلایی که با توجه به ترندهای دنیا، به ترسیم آینده خود نمی‌پردازند.</p>
+                </div>
+            </section>
+            <span class="line-footer d-flex d-md-none bg-white mx-auto m-0"></span>
+            <section class="links-footer row container mx-auto p-0 m-0">
+                <nav class="peyvandha row col-12 col-lg-2 p-0 m-0 px-3 py-2">
+                    <span class="d-flex justify-content-between align-items-center link-title col-12 m-0 p-0">
+                        پیوندها
+                        <i class="d-flex toggle-icon1 toggle-icon d-lg-none bi bi-chevron-left m-2"></i>
+                    </span>
+                    <ul class="peyvandha-links col-12 d-lg-block p-0 m-0 mt-3">
+                        <li><a href="#">پیوند 1</a></li>
+                        <li><a href="#">پیوند 2</a></li>
+                        <li><a href="#">پیوند 3</a></li>
+                        <li><a href="#">پیوند 4</a></li>
+                    </ul>
+                </nav>
+                <span class="line-footer d-flex d-md-none bg-white mx-auto m-0 p-0"></span>
+                <nav class="questions-1 row col-12 col-lg-3 p-0 m-0 px-3 py-2">
+                    <span class="d-flex justify-content-between align-items-center link-title col-12 m-0 p-0">
+                        سوالات متداول
+                        <i class="d-flex toggle-icon toggle-icon2 d-lg-none bi bi-chevron-left m-2"></i>
+                    </span>
+                    <ul class="questions-1-links col-12 d-lg-block p-0 m-0 mt-3">
+                        <li><a href="#">پیوند 1</a></li>
+                        <li><a href="#">پیوند 2</a></li>
+                        <li><a href="#">پیوند 3</a></li>
+                        <li><a href="#">پیوند 4</a></li>
+                    </ul>
+                </nav>
+                <span class="line-footer d-flex d-md-none bg-white mx-auto m-0 p-0"></span>
+                <nav class="questions-2 row col-12 col-lg-3 p-0 m-0 px-3 py-2">
+                    <span class="d-flex justify-content-between align-items-center link-title col-12 m-0 p-0">
+                        سوالات متداول
+                        <i class="d-flex toggle-icon toggle-icon3 d-lg-none bi bi-chevron-left m-2"></i>
+                    </span>
+                    <ul class="questions-2-links col-12 d-lg-block p-0 m-0 mt-3">
+                        <li><a href="#">پیوند 1</a></li>
+                        <li><a href="#">پیوند 2</a></li>
+                        <li><a href="#">پیوند 3</a></li>
+                        <li><a href="#">پیوند 4</a></li>
+                    </ul>
+                </nav>
+                <span class="line-footer d-flex d-md-none bg-white mx-auto m-0 p-0"></span>
+                <div class="tamas-ba-ma col-12 col-lg-4 row p-0 m-0 px-3 py-2">
+                    <span class="link-title d-flex justify-content-between align-items-center col-12 p-0 m-0 mb-3">تماس
+                        با
+                        ما</span>
+                    <p class="address-footer m-0 p-0">تهران، آیت اله کاشانی،‌بلوار اباذر، کوچه لاله،‌پ6</p>
+                    <div class="row social-footer p-0 m-0">
+                        <div class="row justify-content-end col-12 m-0 py-3 p-0">
+                            <a href="tel:021456789"
+                                class="col-9 d-flex align-items-center justify-content-end phone">021-456789</a>
+                            <a class="col-3 p-0 m-0" href="tel:021456789"><i class=" bi bi-telephone"></i></a>
+                        </div>
+                        <div class="row col-11 col-sm-8 col-lg-12 justify-content-between p-0 m-0 pe-xl-5">
+                            <a class="p-0 m-0" href="https://www.aparat.com/loihub.ir" target="_blank">
+                                <i class="m-icon-aparat"></i>
+                            </a>
+                            <a class="p-0 m-0" href="https://www.instagram.com/loihub.ir" target="_blank"> <i
+                                    class=" bi bi-instagram"></i></a>
+                            <a class="p-0 m-0" href="https://www.linkedin.com/company/loihub/" target="_blank">
+                                <i class=" bi bi-linkedin"></i></a>
+                            <a class="p-0 m-0" href="https://www.youtube.com/channel/UCmOYUXwG5cOpXXjzZFvRelA"
+                                target="_blank"> <i class=" bi bi-youtube"></i></a>
+                            <a class="p-0 m-0" href="#" target="_blank"><i class="bi bi-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="copy-right d-flex justify-content-center align-items-center container-fluid p-0 m-0 mt-5">
+                <span class="text-white">کلیه حقوق و مادی و معنوی این وبسایت متعلق به لوآهاب است.</span>
+            </section>
+        </footer>
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/OwlCarousel/dist/owl.carousel.min.js"></script>
+    <script src="js/master.js"></script>
+</body>
+
+</html>

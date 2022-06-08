@@ -1,0 +1,397 @@
+@media screen and (max-width: 576px) {
+  .nav-top {
+    min-height: 80px;
+  }
+  .nav-top h4 {
+    font-size: 0.8rem;
+    text-align: center;
+    background: #003383;
+  }
+  .nav-top .countdown {
+    width: 280px;
+  }
+  .nav-top .countdown span {
+    font-size: 0.7rem;
+  }
+  .nav-top .countdown .text {
+    font-size: 0.5rem;
+  }
+  .header {
+    height: 65px;
+  }
+  .header .register-header-btn {
+    font-size: 0.8rem;
+    width: 95px;
+    height: 35px;
+  }
+  .header .search-box-header i {
+    font-size: 1.2rem;
+  }
+  .banner-slider .slick-dots {
+    position: absolute;
+    bottom: 20px;
+  }
+  .options-board figcaption {
+    font-size: 0.8rem;
+  }
+  .loiesho-btn {
+    left: 25px;
+    bottom: calc(50% - 15px);
+    height: 30px;
+    width: 95px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+  }
+  .loiesho-btn i {
+    padding: 2px;
+    font-size: 0.6rem;
+  }
+  .link-cast {
+    height: 40px;
+    width: 120px;
+    font-size: 0.8rem;
+  }
+  .slick-slide .news-title {
+    font-size: 0.8rem;
+  }
+  .hamkar-slider div {
+    height: 110px;
+  }
+  .text-article p {
+    font-size: 1rem;
+    font-weight: 1.8rem;
+  }
+  .news-description {
+    font-size: 0.9rem;
+  }
+  .read-news {
+    font-size: 0.9rem;
+  }
+  .news-item {
+    color: #666666;
+  }
+  .footer .text-about {
+    font-size: 0.9rem;
+  }
+  .footer .peyvandha .peyvandha-links {
+    display: none;
+  }
+  .footer .questions-1 .questions-1-links {
+    display: none;
+  }
+  .footer .questions-2 .questions-2-links {
+    display: none;
+  }
+  .footer .copy-right {
+    font-size: 0.8rem;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .nav-top {
+    min-height: 70px;
+  }
+  .nav-top h4 {
+    font-size: 0.8rem;
+    text-align: center;
+    background: #003383;
+  }
+  .nav-top .countdown {
+    width: 280px;
+  }
+  .nav-top .countdown span {
+    font-size: 0.7rem;
+  }
+  .nav-top .countdown .text {
+    font-size: 0.5rem;
+  }
+  .header {
+    height: 65px;
+  }
+  .header .register-header-btn {
+    font-size: 1rem;
+    width: 120px;
+    height: 45px;
+  }
+  .header .search-box-header i {
+    font-size: 1.2rem;
+  }
+  .banner-slider .slick-dots {
+    position: absolute;
+    bottom: 20px;
+  }
+  .options-board figcaption {
+    font-size: 0.9rem;
+  }
+  .loiesho-btn {
+    left: 50px;
+    bottom: calc(50% - 22px);
+    height: 44px;
+    width: 130px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  .loiesho-btn i {
+    padding: 2px;
+    font-size: 0.7rem;
+  }
+  .link-cast {
+    height: 40px;
+    width: 120px;
+    font-size: 0.8rem;
+  }
+  .hamkar-slider div {
+    height: 140px;
+  }
+  .text-article p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+  .news-description {
+    font-size: 1rem;
+  }
+  .slick-slide .news-title {
+    font-size: 0.8rem;
+  }
+  .footer .text-about {
+    font-size: 0.8rem;
+  }
+  .footer .peyvandha .peyvandha-links {
+    display: none;
+  }
+  .footer .questions-1 .questions-1-links {
+    display: none;
+  }
+  .footer .questions-2 .questions-2-links {
+    display: none;
+  }
+  .footer .copy-right {
+    font-size: 0.8rem;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-top h4 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .nav-top .countdown span {
+    font-size: 1rem;
+  }
+  .nav-top .countdown .text {
+    font-size: 0.8rem;
+  }
+  .link-cast {
+    height: 50px;
+    width: 170px;
+    font-size: 1.2rem;
+  }
+  .header {
+    height: 120px;
+  }
+  .header .register-header-btn {
+    font-size: 1rem;
+    width: 130px;
+    height: 50px;
+  }
+  .header .search-box-header i {
+    font-size: 1.5rem;
+  }
+  .banner-slider .slick-dots {
+    position: absolute;
+    bottom: 40px;
+  }
+  .options-board figcaption {
+    font-size: 1.2rem;
+  }
+  .loiesho-btn {
+    left: 70px;
+    bottom: calc(50% - 25px);
+    height: 50px;
+    width: 160px;
+    font-size: 1rem;
+  }
+  .loiesho-btn i {
+    padding: 3px;
+    font-size: 0.8rem;
+  }
+  .hamkar-slider div {
+    height: 15s0px;
+  }
+  .slick-slide .news-title {
+    font-size: 0.9rem;
+  }
+  .footer .text-about {
+    font-size: 1.2rem;
+  }
+  .footer .peyvandha .peyvandha-links {
+    display: none;
+  }
+  .footer .questions-1 .questions-1-links {
+    display: none;
+  }
+  .footer .questions-2 .questions-2-links {
+    display: none;
+  }
+  .footer .copy-right {
+    font-size: 1.1rem;
+    height: 70px;
+  }
+  .service-in-desktop-item .item-title {
+    font-size: 0.7rem;
+  }
+  .service-in-desktop-item i {
+    left: 10px;
+    bottom: 15px;
+  }
+  .text-service-desktop p {
+    font-size: 0.9rem;
+  }
+  .news-time {
+    background-color: rgba(255, 255, 255, 0.811);
+    border-radius: 8px;
+    color: #003383;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: bolder;
+    width: 130px;
+    height: 35px;
+  }
+  .countdown span {
+    font-size: 1.1rem;
+  }
+  .countdown .text {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-top {
+    min-height: 70px;
+  }
+  .nav-top h4 {
+    font-size: 1.1rem;
+    text-align: right;
+    background-color: #ffffff00;
+  }
+  .nav-top .countdown span {
+    font-size: 1.1rem;
+  }
+  .nav-top .countdown .text {
+    font-size: 0.7rem;
+  }
+  .header .menu-desktop a {
+    font-size: 0.8rem;
+  }
+  .header .register-header-btn {
+    font-size: 1rem;
+    width: 160px;
+    height: 60px;
+  }
+  .loiesho-btn {
+    left: 10%;
+    bottom: calc(50% - 35px);
+    width: 230px;
+    border-radius: 8px;
+    height: 70px;
+    font-size: 1.2rem;
+  }
+  .loiesho-btn i {
+    padding: 4px;
+    font-size: 1rem;
+  }
+  .text-article p {
+    font-size: 1.1rem;
+    line-height: 2.1rem;
+  }
+  .footer .peyvandha .peyvandha-links {
+    display: block;
+  }
+  .footer .questions-1 .questions-1-links {
+    display: block;
+  }
+  .footer .questions-2 .questions-2-links {
+    display: block;
+  }
+  .service-in-desktop-item .item-title {
+    font-size: 0.65rem;
+  }
+  .service-in-desktop-item i {
+    left: 20px;
+    bottom: 20px;
+  }
+  .news-time {
+    background-color: rgba(255, 255, 255, 0.811);
+    width: 130px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header .menu-desktop a {
+    font-size: 1rem;
+  }
+  .service-in-desktop-item {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .service-in-desktop-item img {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  .service-in-desktop-item .item-title {
+    font-size: 0.75rem;
+  }
+  .service-in-desktop-item i {
+    left: 25px;
+    bottom: 20px;
+  }
+  .text-service-desktop p {
+    font-size: 1rem;
+  }
+  .text-article p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+  }
+  .news-description {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .options-board figcaption {
+    font-size: 1.5rem;
+  }
+  .loiesho-btn {
+    left: 10%;
+    bottom: calc(50% - 40px);
+    width: 240px;
+    border-radius: 8px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+  .loiesho-btn i {
+    padding: 4px;
+    font-size: 1.2rem;
+  }
+  .service-in-desktop-item .item-title {
+    font-size: 0.85rem;
+  }
+  .service-in-desktop-item i {
+    left: 20px;
+    bottom: 20px;
+  }
+  .text-service-desktop p {
+    font-size: 1.1rem;
+  }
+}
+/*# sourceMappingURL=local.css.map */
