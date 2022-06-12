@@ -296,7 +296,7 @@ main {
   }
 }
 .cast-slider {
-  width: 85%;
+  width: 90%;
   display: flex;
   .cast-slider-item {
     display: flex;
@@ -331,85 +331,113 @@ main {
     height: 70px;
     h5 {
       color: #3a3a3a;
-      font-weight: normal;
+      font-weight: 600;
+      font-family: diodrum;
     }
     span {
       height: 1px;
       background-color: #00a1c1;
     }
   }
-  .search-cast {
-    height: 45px;
-    display: flex;
-    position: relative;
-    align-items: center;
-    > .search-cast-input {
-      height: 45px;
-      padding: 15px 45px;
-      border-radius: 8px;
-      border: none;
-      outline: none;
-      background-color: rgba(0, 0, 0, 0.028);
-      caret-color: #605e5e64;
-      &:focus {
-        border: 1px solid #229ed9;
-      }
-    }
-    > i {
-      position: absolute;
-      right: 15px;
-      font-size: 1.2rem;
-      font-weight: bolder;
-      color: #3a3a3ad3;
-    }
-  }
   .loicast-items {
-    min-height: 200px;
-    padding-left: 20px !important;
-    .loicast-cast-item {
+    .loicast-item {
       padding: 20px !important;
       margin-bottom: 20px !important;
-      background-color: #fff;
+      min-height: 100px;
+      background-color: rgba(255, 255, 255, 0.868);
       border-radius: 8px;
-      box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.285);
+      box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.148);
     }
     figure {
+      a {
+        height: 100%;
+        width: 100%;
+      }
       img {
         width: 100%;
         height: 100%;
         object-fit: contain;
       }
     }
-
-    .description-cast {
-      a {
-        font-size: 1.4rem;
-        font-family: diodrum;
-        font-weight: 600;
-        color: #003383;
-        align-items: center;
-        display: flex;
-      }
-      .date-published {
-        display: flex;
-        align-items: center;
-        font-size: 1rem;
-        color: #3a3a3a;
-        i {
-          margin-left: 8px;
+    .podcast-title {
+      font-family: diodrum;
+      font-weight: 600;
+      color: #003383;
+      min-height: 45px;
+      display: flex;
+      align-items: center;
+    }
+    .time-pubilshed {
+      min-height: 45px;
+      color: #666666;
+      font-size: 0.9rem;
+    }
+    .description-cast-desktop {
+      line-height: 1.8rem;
+      font-size: 0.95rem;
+      color: #6a6a6a;
+    }
+    .description-cast-mobile {
+      font-size: 0.8rem;
+      color: #6a6a6a;
+    }
+    .footer-cast {
+      min-height: 45px;
+      .seen-section {
+        flex-wrap: wrap;
+        > * {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #656464;
+          font-size: 0.9rem;
+        }
+        > span:nth-of-type(2) {
+          font-size: 0.8rem;
         }
       }
-    }
-    .cast-info {
-      min-height: 50px;
-      i {
-        font-size: 1rem;
+      .listen-section {
+        flex-wrap: wrap;
+        > * {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #656464;
+          font-size: 0.9rem;
+        }
+        i {
+          font-size: 1.1rem;
+        }
+        > span:nth-of-type(2) {
+          font-size: 0.8rem;
+        }
       }
-      .bi-headphones {
-        font-size: 1.3rem;
+      .link-listen-podcast {
+        a {
+          border-radius: 25px;
+          width: 200px;
+          height: 45px;
+          border: 2px solid #e6683c;
+          color: #e6683c;
+          position: relative;
+          overflow: hidden;
+          transition: 0.4s;
+          box-shadow: 1px 1px 5px 0 #f1916e;
+          i {
+            color: #e6683c;
+            font-size: 1.5rem;
+            transition: 0.4s;
+          }
+          &:hover {
+            background-color: #e6683c;
+            color: #fff;
+            border: 1px solid #fff;
+            i {
+              color: #fff;
+            }
+          }
+        }
       }
-      font-size: 0.85rem;
-      color: #666666bc;
     }
     .cast-play-link {
       width: 180px;
@@ -422,28 +450,86 @@ main {
       align-items: center;
       border: 1px solid #f09433;
       color: #e6683c;
-      i{
+      i {
         color: #fff;
         padding: 5px;
         border-radius: 50%;
         background-color: #f09433;
       }
     }
-    .count-seen{
-      span{
+    .count-seen {
+      span {
         font-size: 0.8rem;
         margin-right: 10px;
       }
-     
     }
-    .count-listen{
-      span{
+    .count-listen {
+      span {
         font-size: 0.8rem;
         margin-right: 10px;
       }
-     
+    }
+    .time-published-mobile {
+      span {
+        font-size: 0.9rem;
+        color: #656464;
+      }
+    }
+  }
+  .pagination-podcast{
+    min-height: 40px;
+    >*{
+      width: fit-content;
+      font-size: .75rem;
+    }
+    .previous-page{
+      width: 55px;
+     a{
+      border-radius: 25px;
+      border: 2px solid #00afcb;
+      color: #656464;
+      transition: .3s;
+      &:hover{
+        background-color: #00afcb;
+        color: white;
+      }
+     } 
+    
+    }
+    .next-page{
+      width: 55px;
+      a{
+        border-radius: 25px;
+        border: 2px solid #00afcb;
+        color: #656464;
+        transition: .3s;
+        &:hover{
+          background-color: #00afcb;
+          color: white;
+        }
+      }
+      
+    }
+    .page-number{
+     a{
+       width: 35px;
+       border-radius: 8px;
+       border: 2px solid #00afcb;
+       margin: 2px !important;
+       color: #656464;
+       transition: .3s;
+       &.active-page{
+         color: white;
+         background-color: #00afcb;
+       }
+       &:hover{
+         color: #fff;
+         background-color: #39c6dc;
+         border: 2px solid #fff;
+       }
+     }
+    }
 
-    }
   }
 }
 .loiservice-section {
@@ -455,6 +541,7 @@ main {
     h5 {
       color: #3a3a3a;
       font-weight: normal;
+      font-family: diodrum;
     }
     .line-title {
       height: 1px;
@@ -475,6 +562,8 @@ main {
       h3 {
         font-size: 1.2rem;
         color: #3a3a3a;
+        font-family: diodrum;
+        font-weight: 600;
       }
       p {
         font-size: 0.85rem;

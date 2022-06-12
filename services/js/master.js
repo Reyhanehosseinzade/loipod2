@@ -35,7 +35,7 @@ $(function () {
     $(".item").css("minHeight", "70px");
     $(".service-slider").css("border", "2px solid #6c757d30");
     $(".header").css("position", "fixed");
-    $('.khadamat').css('marginTop', "270px")
+    $(".khadamat").css("marginTop", "270px");
     $(".service-slider").css("position", "fixed");
   });
 });
@@ -86,17 +86,17 @@ let interval = setInterval(() => {
   }
 }, 1000);
 
-// service details 
-const navLinks = document.querySelectorAll('.item');
-const sections = document.querySelectorAll('.service-detail-item');
+// service details
+const navLinks = document.querySelectorAll(".item");
+const sections = document.querySelectorAll(".service-detail-item");
 navLinks.forEach((link, idx) => {
-    link.addEventListener('click', () => {
-        const topMargin = sections[idx].offsetTop;
-        window.scrollTo({ top: topMargin - 270, behavior: "smooth" });
-    });
+  link.addEventListener("click", () => {
+    const topMargin = sections[idx].offsetTop;
+    window.scrollTo({ top: topMargin - 270, behavior: "smooth" });
+  });
 });
 
-// go to top 
+// go to top
 const body = document.getElementsByClassName("body")[0];
 
 body.addEventListener("scroll", function () {

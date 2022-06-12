@@ -30,6 +30,25 @@
   .published-cast-title h5 {
     font-size: 0.8rem;
   }
+  .loicast-items .image-podcast {
+    height: 200px;
+  }
+  .loicast-items .podcast-title {
+    font-size: 1.1rem;
+  }
+  .seen-section > * {
+    width: 100%;
+  }
+  .listen-section > * {
+    width: 100%;
+  }
+  .footer-cast .time-pubilshed {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer-cast .time-pubilshed > * {
+    width: 100%;
+  }
   .footer .text-about {
     font-size: 0.9rem;
   }
@@ -80,6 +99,25 @@
   .published-cast-title h5 {
     font-size: 0.9rem;
   }
+  .loicast-items .image-podcast {
+    height: 200px;
+  }
+  .loicast-items .podcast-title {
+    font-size: 1.1rem;
+  }
+  .seen-section > * {
+    width: 100%;
+  }
+  .listen-section > * {
+    width: 100%;
+  }
+  .footer-cast .time-pubilshed {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer-cast .time-pubilshed > * {
+    width: 100%;
+  }
   .footer .text-about {
     font-size: 0.8rem;
   }
@@ -125,6 +163,21 @@
   }
   .published-cast-title h5 {
     font-size: 0.9rem;
+  }
+  .loicast-items .podcast-title {
+    font-size: 1.2rem;
+  }
+  .seen-section > * {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 4px;
+  }
+  .listen-section > * {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 4px;
   }
   .footer .text-about {
     font-size: 1.2rem;
@@ -172,6 +225,9 @@
   }
   .published-cast-title h5 {
     font-size: 1.2rem;
+  }
+  .loicast-items .podcast-title {
+    font-size: 1.3rem;
   }
   .footer .peyvandha .peyvandha-links {
     display: block;

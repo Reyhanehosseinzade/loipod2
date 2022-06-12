@@ -46,13 +46,16 @@ $(function () {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          arrows:false,
+          centerMode:true,
         }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          arrows:false,
         }
       }
     ]

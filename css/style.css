@@ -934,7 +934,118 @@ li {
 .services-section .service-in-desktop .concat-section section {
   width: 24%;
   height: 100%;
-  background-color: #fafafa;
+}
+
+.services-section .service-in-desktop .concat-section > section:nth-of-type(1) {
+  background-color: #fff9f2;
+}
+
+.services-section .service-in-desktop .concat-section > section:nth-of-type(2) {
+  background-color: #e9f9f9;
+}
+
+.services-section .service-in-desktop .concat-section > section:nth-of-type(3) {
+  background-color: #fefbef;
+}
+
+.services-section .service-in-desktop .concat-section > section:nth-of-type(4) {
+  background-color: #fdfdee;
+}
+
+.services-section .service-in-desktop #mini-box2 > section:nth-of-type(1) {
+  background-color: #fff8f2;
+}
+
+.services-section .service-in-desktop #mini-box2 > section:nth-of-type(2) {
+  background-color: #fff2f2;
+}
+
+.services-section .service-in-desktop #mini-box2 > section:nth-of-type(3) {
+  background-color: #ffebeb;
+}
+
+.services-section .service-in-desktop #mini-box2 > section:nth-of-type(4) {
+  background-color: #f3ecfa;
+}
+
+.services-section .service-in-desktop #mini-box3 > section:nth-of-type(1) {
+  background-color: #fdfdef;
+}
+
+.services-section .service-in-desktop #mini-box3 > section:nth-of-type(2) {
+  background-color: #f1fbeb;
+}
+
+.services-section .service-in-desktop #mini-box3 > section:nth-of-type(3) {
+  background-color: #fff9f0;
+}
+
+.services-section .service-in-desktop #mini-box3 > section:nth-of-type(4) {
+  background-color: #fff6f6;
+}
+
+.services-section .service-in-desktop #mini-box4 > section:nth-of-type(1) {
+  background-color: #f1fffe;
+}
+
+.services-section .service-in-desktop #mini-box4 > section:nth-of-type(2) {
+  background-color: #fff2f2;
+}
+
+.services-section .service-in-desktop #mini-box4 > section:nth-of-type(3) {
+  background-color: #e8fafa;
+}
+
+.services-section .service-in-desktop #mini-box4 > section:nth-of-type(4) {
+  background-color: #fdeef5;
+}
+
+.services-section .service-in-desktop #matn4 > section:nth-of-type(1) {
+  background-color: #f1fffe;
+}
+
+.services-section .service-in-desktop #matn4 > section:nth-of-type(2) {
+  background-color: #fff2f2;
+}
+
+.services-section .service-in-desktop #matn4 > section:nth-of-type(3) {
+  background-color: #e8fafa;
+}
+
+.services-section .service-in-desktop #matn4 > section:nth-of-type(4) {
+  background-color: #fdeef5;
+}
+
+.services-section .service-in-desktop #matn3 > section:nth-of-type(1) {
+  background-color: #fdfdef;
+}
+
+.services-section .service-in-desktop #matn3 > section:nth-of-type(2) {
+  background-color: #f1fbeb;
+}
+
+.services-section .service-in-desktop #matn3 > section:nth-of-type(3) {
+  background-color: #fff9f0;
+}
+
+.services-section .service-in-desktop #matn3 > section:nth-of-type(4) {
+  background-color: #fff6f6;
+}
+
+.services-section .service-in-desktop #matn2 > section:nth-of-type(1) {
+  background-color: #fff8f2;
+}
+
+.services-section .service-in-desktop #matn2 > section:nth-of-type(2) {
+  background-color: #fff2f2;
+}
+
+.services-section .service-in-desktop #matn2 > section:nth-of-type(3) {
+  background-color: #ffebeb;
+}
+
+.services-section .service-in-desktop #matn2 > section:nth-of-type(4) {
+  background-color: #f3ecfa;
 }
 
 .services-section .service-in-desktop .text-service-desktop {
@@ -957,7 +1068,6 @@ li {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #fafafa;
 }
 
 .services-section .service-in-desktop .text-service-desktop section > p {
@@ -965,6 +1075,22 @@ li {
   color: #666666;
   width: 80%;
   margin: 0 auto;
+}
+
+.services-section .service-in-desktop .text-service-desktop > section:nth-of-type(1) {
+  background-color: #fff9f2;
+}
+
+.services-section .service-in-desktop .text-service-desktop > section:nth-of-type(2) {
+  background-color: #e9f9f9;
+}
+
+.services-section .service-in-desktop .text-service-desktop > section:nth-of-type(3) {
+  background-color: #fefbef;
+}
+
+.services-section .service-in-desktop .text-service-desktop > section:nth-of-type(4) {
+  background-color: #fdfdee;
 }
 
 .service-mobile-details {
