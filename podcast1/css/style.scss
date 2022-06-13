@@ -417,19 +417,19 @@ main {
           border-radius: 25px;
           width: 200px;
           height: 45px;
-          border: 2px solid #e6683c;
-          color: #e6683c;
+          border: 2px solid #ff9933;
+          color: #ff9933;
           position: relative;
           overflow: hidden;
           transition: 0.4s;
-          box-shadow: 1px 1px 5px 0 #f1916e;
+          box-shadow: 1px 1px 5px 0 rgb(252, 178, 152);
           i {
-            color: #e6683c;
+            color: #ff9933;
             font-size: 1.5rem;
             transition: 0.4s;
           }
           &:hover {
-            background-color: #e6683c;
+            background-color: #ff9933;
             color: #fff;
             border: 1px solid #fff;
             i {
@@ -448,13 +448,13 @@ main {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      border: 1px solid #f09433;
-      color: #e6683c;
+      border: 1px solid #ff9933;
+      color: #ff9933;
       i {
         color: #fff;
         padding: 5px;
         border-radius: 50%;
-        background-color: #f09433;
+        background-color: #ff9933;
       }
     }
     .count-seen {
@@ -513,7 +513,7 @@ main {
     .page-number{
      a{
        width: 35px;
-       border-radius: 8px;
+       border-radius:1px 10px 1px 1px;
        border: 2px solid #00afcb;
        margin: 2px !important;
        color: #656464;
@@ -540,7 +540,7 @@ main {
     align-items: center;
     h5 {
       color: #3a3a3a;
-      font-weight: normal;
+      font-weight: 600;
       font-family: diodrum;
     }
     .line-title {
@@ -550,17 +550,28 @@ main {
   }
   .loiservice-item {
     min-height: 100px;
-    margin-top: 20px !important;
+    margin-top: 10px !important;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.152);
+    transition: .4s;
+    &:hover{
+      border-bottom: 1px solid #00a1c1;
+      img{
+        transform: scale(1.1);
+      }
+      h3{
+        color: #003383;
+      }
+    }
     img {
       height: 55px;
       width: 75px;
+      transition: .4s;
     }
     figcaption {
       min-height: 75px;
       h3 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: #3a3a3a;
         font-family: diodrum;
         font-weight: 600;
