@@ -296,17 +296,19 @@ main {
   }
 }
 .cast-slider {
-  width: 90%;
   display: flex;
   .cast-slider-item {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px !important;
+    transition: .4s;
     img {
       width: 100%;
       height: 50%;
       object-fit: cover;
+      transition: .4s;
+      border-radius: 6px;
     }
     figcaption {
       display: flex;
@@ -316,10 +318,25 @@ main {
       font-weight: 500;
       font-size: 0.9rem;
     }
+    &:hover{
+      img{
+        transform: scale(1.02);
+        filter: brightness(95%);
+      }
+      figcaption{
+        color: #003383;
+      }
+
+    }
   }
   .slick-arrow {
-    &::before {
-      color: #00afcb;
+    &.slick-prev::before {
+      font-weight: bolder;
+     color: #abadad;
+    }
+    &.slick-next::before {
+      font-weight: bolder;
+      color: #abadad;
     }
   }
 }
@@ -414,7 +431,7 @@ main {
       }
       .link-listen-podcast {
         a {
-          border-radius: 25px;
+          border-radius: 6px;
           width: 200px;
           height: 45px;
           border: 2px solid #ff9933;
@@ -476,60 +493,57 @@ main {
       }
     }
   }
-  .pagination-podcast{
+  .pagination-podcast {
     min-height: 40px;
-    >*{
+    > * {
       width: fit-content;
-      font-size: .75rem;
+      font-size: 0.75rem;
     }
-    .previous-page{
+    .previous-page {
       width: 55px;
-     a{
-      border-radius: 25px;
-      border: 2px solid #00afcb;
-      color: #656464;
-      transition: .3s;
-      &:hover{
-        background-color: #00afcb;
-        color: white;
-      }
-     } 
-    
-    }
-    .next-page{
-      width: 55px;
-      a{
+      a {
         border-radius: 25px;
         border: 2px solid #00afcb;
         color: #656464;
-        transition: .3s;
-        &:hover{
+        transition: 0.3s;
+        &:hover {
           background-color: #00afcb;
           color: white;
         }
       }
-      
     }
-    .page-number{
-     a{
-       width: 35px;
-       border-radius:1px 10px 1px 1px;
-       border: 2px solid #00afcb;
-       margin: 2px !important;
-       color: #656464;
-       transition: .3s;
-       &.active-page{
-         color: white;
-         background-color: #00afcb;
-       }
-       &:hover{
-         color: #fff;
-         background-color: #39c6dc;
-         border: 2px solid #fff;
-       }
-     }
+    .next-page {
+      width: 55px;
+      a {
+        border-radius: 25px;
+        border: 2px solid #00afcb;
+        color: #656464;
+        transition: 0.3s;
+        &:hover {
+          background-color: #00afcb;
+          color: white;
+        }
+      }
     }
-
+    .page-number {
+      a {
+        width: 35px;
+        border-radius: 1px 10px 1px 1px;
+        border: 2px solid #00afcb;
+        margin: 2px !important;
+        color: #656464;
+        transition: 0.3s;
+        &.active-page {
+          color: white;
+          background-color: #00afcb;
+        }
+        &:hover {
+          color: #fff;
+          background-color: #39c6dc;
+          border: 2px solid #fff;
+        }
+      }
+    }
   }
 }
 .loiservice-section {
@@ -553,23 +567,21 @@ main {
     margin-top: 10px !important;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.152);
-    transition: .4s;
-    &:hover{
+    transition: 0.4s;
+    &:hover {
       border-bottom: 1px solid #00a1c1;
-      img{
+      img {
         transform: scale(1.1);
       }
-      h3{
+      h3 {
         color: #003383;
       }
     }
     img {
-      height: 55px;
-      width: 75px;
-      transition: .4s;
+      width: 30%;
+      transition: 0.4s;
     }
     figcaption {
-      min-height: 75px;
       h3 {
         font-size: 1.1rem;
         color: #3a3a3a;

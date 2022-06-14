@@ -431,7 +431,6 @@ main > .beforemain {
 }
 
 .cast-slider {
-  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -448,6 +447,8 @@ main > .beforemain {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px !important;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
 .cast-slider .cast-slider-item img {
@@ -455,6 +456,9 @@ main > .beforemain {
   height: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 6px;
 }
 
 .cast-slider .cast-slider-item figcaption {
@@ -470,8 +474,25 @@ main > .beforemain {
   font-size: 0.9rem;
 }
 
-.cast-slider .slick-arrow::before {
-  color: #00afcb;
+.cast-slider .cast-slider-item:hover img {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-filter: brightness(95%);
+          filter: brightness(95%);
+}
+
+.cast-slider .cast-slider-item:hover figcaption {
+  color: #003383;
+}
+
+.cast-slider .slick-arrow.slick-prev::before {
+  font-weight: bolder;
+  color: #abadad;
+}
+
+.cast-slider .slick-arrow.slick-next::before {
+  font-weight: bolder;
+  color: #abadad;
 }
 
 .published-cast .published-cast-title {
@@ -605,7 +626,7 @@ main > .beforemain {
 }
 
 .published-cast .loicast-items .footer-cast .link-listen-podcast a {
-  border-radius: 25px;
+  border-radius: 6px;
   width: 200px;
   height: 45px;
   border: 2px solid #ff9933;
@@ -683,7 +704,7 @@ main > .beforemain {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .published-cast .pagination-podcast .previous-page {
@@ -694,8 +715,8 @@ main > .beforemain {
   border-radius: 25px;
   border: 2px solid #00afcb;
   color: #656464;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .published-cast .pagination-podcast .previous-page a:hover {
@@ -711,8 +732,8 @@ main > .beforemain {
   border-radius: 25px;
   border: 2px solid #00afcb;
   color: #656464;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .published-cast .pagination-podcast .next-page a:hover {
@@ -726,8 +747,8 @@ main > .beforemain {
   border: 2px solid #00afcb;
   margin: 2px !important;
   color: #656464;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .published-cast .pagination-podcast .page-number a.active-page {
@@ -772,8 +793,8 @@ main > .beforemain {
       -ms-flex-align: center;
           align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.152);
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .loiservice-section .loiservice-item:hover {
@@ -790,14 +811,9 @@ main > .beforemain {
 }
 
 .loiservice-section .loiservice-item img {
-  height: 55px;
-  width: 75px;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.loiservice-section .loiservice-item figcaption {
-  min-height: 75px;
+  width: 30%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .loiservice-section .loiservice-item figcaption h3 {
