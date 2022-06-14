@@ -69,11 +69,26 @@
     height: 100%;
   }
   .image-podcast a span i {
-    font-size: 3rem;
-    color: #fdab53;
+    font-size: 2rem;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 8px;
+    background-color: #fdab53;
+    border-radius: 50%;
+    -webkit-transition: .4s;
+    transition: .4s;
   }
   .image-podcast a span:hover i {
     color: #f09433;
+    background-color: #fff;
   }
   .footer .text-about {
     font-size: 0.9rem;

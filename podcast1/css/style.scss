@@ -571,15 +571,22 @@ main {
     &:hover {
       border-bottom: 1px solid #00a1c1;
       img {
-        transform: scale(1.1);
+        animation: itemservice .4s infinite alternate;
       }
       h3 {
         color: #003383;
       }
     }
     img {
-      width: 30%;
+      width: 28%;
       transition: 0.4s;
+    }
+    @keyframes itemservice {
+      from{
+          transform: scale(.8);
+      }to{
+        transform: scale(1);
+      }
     }
     figcaption {
       h3 {
