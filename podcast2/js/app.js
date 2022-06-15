@@ -75,3 +75,62 @@ $(function () {
     }
   }, 1000);
   
+
+  // podcast player *************************
+  let audio = document.querySelector("#audio");
+let timeLeft = document.querySelector(".time-left");
+let timePassed = document.querySelector(".time-passed");
+var fill = document.getElementById("fill");
+var fill_btn = document.getElementById("fill-btn");
+let played = false;
+function play_pause() {
+  if (played) {
+    audio.pause();
+    document.querySelector(".bi-play-fill").style.display = "flex";
+    document.querySelector(".bi-pause-fill").style.display = "none";
+    played = false;
+  } else {
+    audio.play();
+    document.querySelector(".bi-play-fill").style.display = "none";
+    document.querySelector(".bi-pause-fill").style.display = "flex";
+    played = true;
+  }
+}
+function changeFormat(time) {
+  let minute = parseInt(time / 60);
+  let second = parseInt(time - minute * 60);
+  if (second > 9) {
+    return minute.toString() + ":" + second.toString();
+  } else {
+    return minute.toString() + ":0" + second.toString();
+  }
+}
+function next_30() {
+  if (audio.currentTime + 30 > audio.duration)
+    audio.currentTime = audio.duration;
+  else audio.currentTime += 30;
+}
+function back_10() {
+  if (audio.currentTime - 10 > audio.duration)
+    audio.currentTime = audio.duration;
+  else audio.currentTime -= 10;
+}
+
+slider("volume", "volume");
+slider(
+  "time-line",
+  "time-line",
+  function () {
+    audio.pause();
+  },
+  function () {
+    if (played) audio.play();
+  }
+);
+
+audio.addEventListener("timeupdate", function () {
+  fill.style.width = (audio.currentTime * 100) / audio.duration + "%";
+  fill_btn.style.left = (audio.currentTime * 100) / audio.duration + "%";
+  timePassed.innerHTML = changeFormat(audio.currentTime);
+  timeLeft.innerHTML = changeFormat(audio.duration);
+});

@@ -474,14 +474,15 @@ main > .beforemain {
   -webkit-box-shadow: 0 1px 5px 0 #b1b0b0;
           box-shadow: 0 1px 5px 0 #b1b0b0;
   position: relative;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   margin: 15px 1px !important;
+  cursor: pointer;
 }
 
-.radio-bendaz-section .radio-bendaz-items .radio-bendaz-item > i {
+.radio-bendaz-section .radio-bendaz-items .radio-bendaz-item i {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -493,16 +494,13 @@ main > .beforemain {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .radio-bendaz-section .radio-bendaz-items .radio-bendaz-item figcaption {
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%) scale(0);
-          transform: translate(-50%, -50%) scale(0);
-  background-color: rgba(255, 255, 255, 0.522);
+  margin: 10px 0 !important;
+  min-height: 50px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -520,7 +518,7 @@ main > .beforemain {
       -ms-flex-align: center;
           align-items: center;
   color: #003283;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 600;
   font-family: diodrum;
 }
@@ -534,11 +532,196 @@ main > .beforemain {
           box-shadow: 4px 4px 7px 0 #b1b0b0;
 }
 
-.radio-bendaz-section .radio-bendaz-items .radio-bendaz-item:hover figcaption {
-  -webkit-transform: translate(-50%, -50%) scale(1);
-          transform: translate(-50%, -50%) scale(1);
+.radio-bendaz-section .radio-bendaz-items .radio-bendaz-item:hover i {
+  color: #003283;
+}
+
+.podcast-section {
+  height: 80px;
+  background-color: #082957;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.podcast-section .cast-info {
   height: 100%;
-  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.podcast-section .cast-info .cast-img {
+  height: 100%;
+}
+
+.podcast-section .cast-info figcaption {
+  color: white;
+  font-size: 0.85rem;
+}
+
+.podcast-section .cast-time-section {
+  height: 100%;
+}
+
+.podcast-section .cast-time-section .cast-control-btns i {
+  height: 100%;
+  font-size: 1.6rem;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.podcast-section .cast-time-section .cast-control-btns .cast-btn {
+  cursor: pointer;
+  position: relative;
+}
+
+.podcast-section .cast-time-section .cast-control-btns .cast-btn > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  font-size: 0.6rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.podcast-section .cast-time-section .cast-control-btns .cast-btn .bi-pause-fill {
+  display: none;
+}
+
+.podcast-section .cast-time-section .time-rail .time-line {
+  height: 4px;
+  background-color: #b8b8b8;
+}
+
+.podcast-section .cast-time-section .time-rail .time-line .fill {
+  position: absolute;
+  width: 0%;
+  height: 4px;
+  left: 0;
+  background-color: #00afcb;
+}
+
+.podcast-section .cast-time-section .time-rail .time-line .fill-btn {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00afcb;
+}
+
+.podcast-section .cast-time-section .time-rail .time-line #left-width-time-line {
+  position: absolute;
+  left: 0;
+}
+
+.podcast-section .cast-time-section .time-rail .time-line #right-width-time-line {
+  position: absolute;
+  right: 0;
+}
+
+.podcast-section .cast-time-section .time-rail .time-left {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.podcast-section .cast-time-section .time-rail .time-passed {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.podcast-section .ctrl-btns .volume-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.podcast-section .ctrl-btns .volume-section i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.podcast-section .ctrl-btns .volume-section .volume-line {
+  position: relative;
+  height: 3px;
+  background: #b8b8b8;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.podcast-section .ctrl-btns .volume-section .volume-line .fill {
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  top: 0;
+  left: 0;
+  background-color: #00afcb;
+}
+
+.podcast-section .ctrl-btns .volume-section .volume-line .fill-btn {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 5px);
+  left: 100%;
+  background-color: #00afcb;
+}
+
+.podcast-section .ctrl-btns .volume-section .volume-line #left-width-volume {
+  position: absolute;
+  left: 0;
+}
+
+.podcast-section .ctrl-btns .volume-section .volume-line #right-width-volume {
+  position: absolute;
+  right: 0;
+}
+
+.podcast-section .ctrl-btns .rate-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.podcast-section .ctrl-btns .rate-section i {
+  color: white;
+  font-size: 1.3rem;
 }
 
 .footer {

@@ -83,12 +83,17 @@
     padding: 8px;
     background-color: #fdab53;
     border-radius: 50%;
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
   }
   .image-podcast a span:hover i {
     color: #f09433;
     background-color: #fff;
+  }
+  .time-line {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   .footer .text-about {
     font-size: 0.9rem;
@@ -182,6 +187,11 @@
     font-size: 3rem;
     color: #f09433;
   }
+  .time-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   .footer .text-about {
     font-size: 0.8rem;
   }
@@ -242,6 +252,9 @@
     width: -moz-fit-content;
     width: fit-content;
     margin: 0 4px;
+  }
+  .time-line {
+    position: relative;
   }
   .footer .text-about {
     font-size: 1.2rem;
