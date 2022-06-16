@@ -134,3 +134,33 @@ audio.addEventListener("timeupdate", function () {
   timePassed.innerHTML = changeFormat(audio.currentTime);
   timeLeft.innerHTML = changeFormat(audio.duration);
 });
+
+
+// audio rate **************************
+
+let rateIcon = document.querySelector('.rate-section>i')
+let flagRate = false
+rateIcon.addEventListener('click', function(){
+  if(flagRate){
+    document.querySelector('.rate-list').style.height = '0'
+    flagRate = false
+    
+  }else{
+    document.querySelector('.rate-list').style.height = '150px'
+    flagRate =true
+    
+  }
+  RateCast()
+})
+function RateCast(){
+ let rates = document.querySelectorAll('.rate-list>li>a')
+ rates.forEach(item => {
+   item.onclick = () =>{
+    let rate = item.innerHTML
+    audio.playbackRate = rate
+   }
+  
+ });
+
+  
+}

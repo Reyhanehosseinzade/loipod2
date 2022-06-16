@@ -309,20 +309,20 @@
 
             </section>
 
-            <section class="container-fluid podcast-section row p-0 m-0">
+            <section class="container-fluid podcast-section row p-0 m-0 justify-content-between">
                 <!-- podcast address ********************** -->
                 <audio src="podcast.mp3" id="audio">
 
                 </audio>
                 <!-- podcast info*************************** -->
-                <figure class="cast-info col border-start p-0 m-0 px-1 px-md-0">
+                <figure class="cast-info col  p-0 m-0 px-1 px-md-0">
                     <img class="cast-img" src="500.jpg" alt="loacast">
                     <figcaption class="d-none d-md-flex row p-0 py-2 m-0">
                         <p class="cast-name m-0 mb-1">رادیوبنداز</p>
                         <p class="cast-episode m-0">اپیزود دوم</p>
                     </figcaption>
                 </figure>
-                <div class="cast-time-section row p-1 m-0 col-md-7 col-7">
+                <div class="cast-time-section row p-1 m-0 col-6 align-content-center">
                     <div
                         class="cast-control-btns col-12 col-md-9 col-md-8 mx-auto d-flex justify-content-evenly h-50 p-0 m-0">
                         <div class="cast-btn" onclick="next_30()">
@@ -345,15 +345,15 @@
                         </div>
                     </div>
                     <div
-                        class="time-rail col-6 col-md-12 mx-auto row justify-content-evenly justify-content-md-around align-items-center p-0 m-0 h-50">
-                        <span class="time-left col-1 d-flex justify-content-center m-0 p-0">00:00</span>
-                        <div class="time-line col-12 col-md-9 m-0 p-0" id="time-line">
+                        class="time-rail col-6 col-md-2 mx-auto row justify-content-evenly justify-content-md-around align-items-center p-0 m-0 h-50">
+                        <span class="time-left col-1 d-flex justify-content-center m-0 p-0 ">00:00</span>
+                        <div class="time-line col-12 m-0 p-0" id="time-line">
                             <span class="fill p-0 m-0" id="fill"></span>
                             <span class="fill-btn p-0 m-0" id="fill-btn"></span>
                             <span id="left-width-time-line"></span>
                             <span id="right-width-time-line"></span>
                         </div>
-                        <span class="d-flex d-md-none col-1">/</span>
+                        <span class="d-flex col-1 text-light p-0 m-0">/</span>
                         <span class="time-passed col-1 m-0 d-flex justify-content-center p-0">00:00</span>
                     </div>
                 </div>
@@ -367,8 +367,14 @@
                         </span>
                         <i class="bi bi-volume-up-fill"></i>
                     </div>
-                    <div class="rate-section col p-0 m-0">
+                    <div class="rate-section col p-0 m-0">    
                         <i class="bi bi-stopwatch-fill"></i>
+                        <ul class="rate-list row p-0 m-0 position-absolute">
+                            <li><a class="border-0" href="#">2</a></li>
+                            <li><a href="#">1.5</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">0.8</a></li>
+                        </ul>
                     </div>
                 </div>
 
